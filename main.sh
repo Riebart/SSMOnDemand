@@ -7,7 +7,6 @@
 mkdir "~SSM_WORKDIR"
 PS3='Please pick the correct one.: '
 options=("Ubuntu 64bit" "RHEL/AWS/CENTOS 64bit" "Pi")
-
 select opt in "${options[@]}"
 do
     case $opt in
